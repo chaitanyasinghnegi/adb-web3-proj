@@ -1,42 +1,4 @@
 {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "postId",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "comment",
-						"type": "string"
-					}
-				],
-				"name": "commentOnPost",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "content",
-						"type": "string"
-					}
-				],
-				"name": "createPost",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			}
-		],
-		"networks": {
-		  "network_id": {
-			"address": "0x5b341509C26D7Cf37416b69cD1980A79E9dda230" 
-		}
-	},
 	"deploy": {
 		"VM:-": {
 			"linkReferences": {},
@@ -15657,5 +15619,10 @@
 			"stateMutability": "nonpayable",
 			"type": "function"
 		}
-	]
+	],
+	"networks": {
+		"network_id": {
+		  "address": "0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47" 
+	  }
+  }
 }
